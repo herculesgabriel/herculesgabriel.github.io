@@ -5,14 +5,64 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poiret+One&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+
   <title>Portfolio</title>
+
+  <style>
+    body {
+      margin: 8px 8px 8px 16px;
+      padding: 0;
+
+      font-family: 'Poiret One';
+      color: #FFB49A;
+      background-color: #17183B;
+    }
+
+    ul#nav-list li {
+      display: inline;
+      margin-right: 16px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    strong {
+      color: #FF4F79;
+    }
+
+    em {
+      color: #A11692;
+    }
+
+    img {
+      margin-left: 50px;
+    }
+
+    #name {
+      font-family: 'Press Start 2P';
+      font-size: 1.2em;
+    }
+
+    #about {
+      font-family: 'Baloo 2';
+    }
+
+    #skills-list {
+      font-size: 1.2em;
+    }
+  </style>
 </head>
 
 <body>
 
   <nav>
     <h1>Navegação</h1>
-    <ul>
+    <ul id="nav-list">
       <a href="#profile-picture">
         <li>Imagem de Perfil</li>
       </a>
@@ -41,7 +91,6 @@
     <h2 id="name">Hercules Gabriel</h2>
     <em id="neighborhood">Olinda - PE, Brasil</em>
 
-    <hr>
     <h1>Sobre</h1>
     <p id="about">
       Apaixonado por tecnologia, por pessoas e por como essas duas coisas juntas são incríveis.
@@ -65,22 +114,19 @@
         <strong>Android Development</strong>
       </li>
       <li>Industry Knowledge</li>
-      <li>Voluntariado</li>
-      <li>Tools & Technologies</li>
+      <li>Linux</li>
+
       <li>Java</li>
       <li>
         <strong>HTML5</strong>
       </li>
-      <li>Other Skills
-      </li>
+
       <li>
         <strong>Cascading Style Sheets (CSS)</strong>
       </li>
     </ul>
 
   </main>
-
-  <hr>
 
   <footer id="footer">
     <a href="#profile-picture">Tô perdido e quero voltar ao topo!</a>
