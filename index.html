@@ -11,91 +11,113 @@
 
   <link rel="stylesheet" href="style.css">
 
-
   <title>Portfolio</title>
 
 </head>
 
 <body>
 
-  <nav>
-    <h1>Navegação</h1>
-    <ul id="nav-list">
-      <a href="#profile-picture">
-        <li>Imagem de Perfil</li>
+  <div id="content">
+
+    <nav>
+      <ul id="nav-list">
+        <a href="#profile-picture">
+          <li>Imagem de Perfil</li>
+        </a>
+        <a href="#name">
+          <li>Nome</li>
+        </a>
+        <a href="#neighborhood">
+          <li>Localidade</li>
+        </a>
+        <a href="#about">
+          <li>Sobre</li>
+        </a>
+        <a href="#skills-list">
+          <li>Habilidades</li>
+        </a>
+        <a href="#footer">
+          <li>Rodapé</li>
+        </a>
+      </ul>
+    </nav>
+
+    <main>
+
+      <div id="main-content">
+        <div id="header">
+          <h2 id="name">Hercules Gabriel</h2>
+          <em id="neighborhood">Olinda - PE, Brasil</em>
+        </div>
+
+        <div id="profile-picture">
+          <img id="profile-picture" src="./assets/profile-picture.jpg" alt="foto de perfil" width="200px" />
+        </div>
+
+        <div id="description">
+
+          <h1>Sobre</h1>
+
+          <p id="about">
+            Apaixonado por tecnologia, por pessoas e por como essas duas coisas juntas são incríveis.
+            <br>
+            Atualmente estudo Desenvolvimento de Software na Trybe, lugar onde desenvolvemos habilidades técnicas e emocionais, lidando com problemas reais, através de muita prática, em um ambiente de colaboração intensa.
+            <br>
+            Sou um cidadão global e acredito que podemos gerar impacto positivo no mundo.
+          </p>
+
+        </div>
+
+      </div>
+
+      <h1>Conhecimentos</h1>
+
+      <ul id="skills-list">
+        <li class="odd">
+          JavaScript
+        </li>
+        <li class="even">
+          React.js
+        </li>
+        <li class="odd">
+          <strong>
+            Android Development
+          </strong>
+        </li>
+        <li class="even">
+          Industry Knowledge
+        </li>
+        <li class="odd">
+          Linux</li>
+        <li class="even">
+          <strong>
+            HTML5
+          </strong>
+        </li>
+        <li class="odd">
+          Java
+        </li>
+        <li class="even">
+          <strong>
+            Cascading Style Sheets (CSS)
+          </strong>
+        </li>
+      </ul>
+
+    </main>
+
+    <footer id="footer">
+      <a href="#profile-picture">Quero voltar pra o Sobre!</a>
+
+      <br><br>
+
+      <a href="https://doisdedosdeteologia.com/" target="_blank">
+        <img src="./assets/ddt-logo.png" alt="" width="20px">
       </a>
-      <a href="#name">
-        <li>Nome</li>
-      </a>
-      <a href="#neighborhood">
-        <li>Localidade</li>
-      </a>
-      <a href="#about">
-        <li>Sobre</li>
-      </a>
-      <a href="#skills-list">
-        <li>Habilidades</li>
-      </a>
-      <a href="#footer">
-        <li>Rodapé</li>
-      </a>
-    </ul>
-  </nav>
 
-  <main>
+    </footer>
 
-    <img id="profile-picture" src="./assets/profile-picture.jpg" alt="foto de perfil" width="200px" />
-
-    <h2 id="name">Hercules Gabriel</h2>
-    <em id="neighborhood">Olinda - PE, Brasil</em>
-
-    <h1>Sobre</h1>
-    <p id="about">
-      Apaixonado por tecnologia, por pessoas e por como essas duas coisas juntas são incríveis.
-      <br>
-      Atualmente estudo
-      Desenvolvimento de Software na Trybe, lugar onde desenvolvemos
-      <br>
-      habilidades técnicas e emocionais, lidando com problemas reais, através de muita prática,
-      <br>
-      em um ambiente de colaboração intensa.
-      <br>
-      Sou um cidadão global e acredito que podemos gerar impacto positivo no mundo.
-    </p>
-
-    <h1>Conhecimentos</h1>
-
-    <ul id="skills-list">
-      <li>JavaScript</li>
-      <li>React.js</li>
-      <li>
-        <strong>Android Development</strong>
-      </li>
-      <li>Industry Knowledge</li>
-      <li>Linux</li>
-
-      <li>Java</li>
-      <li>
-        <strong>HTML5</strong>
-      </li>
-
-      <li>
-        <strong>Cascading Style Sheets (CSS)</strong>
-      </li>
-    </ul>
-
-  </main>
-
-  <footer id="footer">
-    <a href="#profile-picture">Tô perdido e quero voltar ao topo!</a>
-
-    <br><br>
-
-    <a href="https://doisdedosdeteologia.com/" target="_blank">
-      <img src="./assets/ddt-logo.png" alt="" width="20px">
-    </a>
-
-  </footer>
+  </div>
 
 </body>
 
