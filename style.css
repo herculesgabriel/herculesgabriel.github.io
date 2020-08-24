@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poiret One";
+  font-size: 1.2em;
+  color: #ffb49a;
+  background-color: #17183b;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+strong {
+  color: #ff4f79;
+}
+
+em {
+  color: #a11692;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul#nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul#skills-list li.odd {
+  transition: margin-left 0.2s;
+}
+
+ul#skills-list li.odd:hover {
+  margin-left: 10px;
+}
+
+div#content {  
+  width: 85%;
+  margin: 35px auto;
+  padding: 30px;
+}
+
+div#main-content {
+  padding: 18px;
+}
+
+div#header {
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+div#profile-picture {
+  float: left;
+  padding: 15px;
+  margin-right: 35px;
+  margin-left: 20px;
+
+  background-color: #ffb49a;
+}
+
+div#description {  
+  text-align: justify;
+}
+
+h2#name {
+  font-family: "Press Start 2P";
+  font-size: 1.2em;
+}
+
+p#about {
+  font-family: "Baloo 2";
+}
+
+ul#skills-list {
+  font-size: 1.2em;
+}
