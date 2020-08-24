@@ -1,0 +1,43 @@
+body {
+  margin: 8px 8px 8px 16px;
+  padding: 0;
+
+  font-family: "Poiret One";
+  color: #ffb49a;
+  background-color: #17183b;
+}
+
+ul#nav-list li {
+  display: inline;
+  margin-right: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+strong {
+  color: #ff4f79;
+}
+
+em {
+  color: #a11692;
+}
+
+img {
+  margin-left: 50px;
+}
+
+#name {
+  font-family: "Press Start 2P";
+  font-size: 1.2em;
+}
+
+#about {
+  font-family: "Baloo 2";
+}
+
+#skills-list {
+  font-size: 1.2em;
+}
